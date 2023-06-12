@@ -28,3 +28,15 @@
   char ch =sc.nect().charAt(0)
   int num = (int)ch
   
+#5. indexOf()
+    if you find specific string or char, return that char value.
+    if you couldnt find it then return value -1
+    
+    indexOf(String s)
+    indexOOf(int i)
+    
+    String s= "hell"
+    for(char ch='a'; ch<='z'; a++){
+     system.out.print(s.indexOf(c)"" ");
+  }
+  >> -1 -1 -1 -1 1 -1 -1 0 -1 -1 -1 2 -1 -1 4 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
