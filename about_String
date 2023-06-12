@@ -1,0 +1,30 @@
+#1. Declaration String
+  String a = "Jhlee 343"
+  String b = "Java"
+  String c = "Study"
+  
+#2. Declar String Array
+  String [] st= new String[n]
+  String [] st = { , , , , ,}
+
+#3. charAt()
+  ##Declar of String
+  String str = new String90
+  str = "hello"
+  char c = ' '
+  c = str.charAt(0)
+  System.out.println(c)
+  
+  >> h
+    if you want to add sequential number to 1-5 using String
+    total += Str.charAt(i) -'0'
+    
+#4  ASKII code
+  alpabet -> number
+  
+  scanner sc = new scanner(System.in)
+  int ch = sc.next().charAt(0)
+  or
+  char ch =sc.nect().charAt(0)
+  int num = (int)ch
+  
