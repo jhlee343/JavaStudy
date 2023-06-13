@@ -40,3 +40,29 @@
      system.out.print(s.indexOf(c)"" ");
   }
   >> -1 -1 -1 -1 1 -1 -1 0 -1 -1 -1 2 -1 -1 4 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 
+  
+  #6 how to fins string's length ?
+    String s = "hello"
+    int s_len = s.length();
+    
+    if you use for sentence with String , 
+    
+    Scanner sc = new Scammer(System.in)
+    int num = sc.nextint()
+    String str = sc.next()
+    
+    for(int i=0; i<num ; i++){
+      system.out.print(str)
+    }
+    
+    is not correct
+    
+    for(int j =0 ; j<str.length() ; j++) {
+					System.out.print(str);
+			}
+      
+     is correct
+    
+    why?
+     
+    
