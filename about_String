@@ -64,5 +64,18 @@
      is correct
     
     why?
-     
+	///
+		     
+#7 how to split String using java method
+   1) String str = sc.nextline();
+      String[] arr = st.split(" ");
+   2) String tokens = new StringTokenizer(str, " ");
+    
+#8 tokens.countTokens() -> you can count blank in string sentence
+
+#9 what is different between next() nextLine()
+   next() => accept one world based on the blank space
+   nextLine() => accept the entire sentence before typing a letter or enter button
+   		you can bring whole sentence in buffer like ( /n /t )
+
     
