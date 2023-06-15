@@ -78,4 +78,17 @@
    nextLine() => accept the entire sentence before typing a letter or enter button
    		you can bring whole sentence in buffer like ( /n /t )
 
-    
+#10 how to comvert String
+    use Stringbuffer
+
+    String str = "ABCED"
+    StringBuffer sb = new StringBuffer(str);
+
+    String reverse = sb.reverse().toString();
+
+#11 String to int / int to String
+    String a = "123";
+    int A = Integer.ParseInt(a);
+
+    int b = "123";
+    String B = Integer.toString(b);
