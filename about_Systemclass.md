@@ -1,4 +1,5 @@
-System class 
+# System class 
+
 using system class u can do os's program exit, keyboard input, output to the moiniter, memory cleanup, read current time, 
 read system propete, read system variable
 
