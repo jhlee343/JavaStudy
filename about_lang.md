@@ -112,8 +112,9 @@ StringBuilder a = new StringBuilder("hello");
 a.append("world");
 ```
 
-###capacity()
-return the size about the array
-length() method is length of the string itself containing the acutal data 
-capacity() is the size of the current array
-if you resize the array like append() method , then array's size is automatically changed
+### capacity()
+ return the size about the array
+ 
+ length() method is length of the string itself containing the acutal data  capacity() is the size of the current array
+ 
+ if you resize the array like append() method , then array's size is automatically changed
