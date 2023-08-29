@@ -80,12 +80,14 @@ Arrays.sort(arr, (e1, e2) -> {
 		return e1[0] - e2[0];
 	}
 });
-
+```
 java.util.Set;
 ===================
 
 element couldn't be duplicated(repeated)
+
 set might have order
+
 set might be array
 
 
@@ -99,3 +101,74 @@ set might be array
 	}
 
 # java.util.Iterator
+
+java.util.Comparator<T>
+======================
+
+## Comparator
+
+Comparator is interface. so you must embody method that is declare at the interface
+
+```java
+Comparator<T> c= = new Comparator<T>(){
+@override
+	public int compare(T o1, T o2){
+	return 0;
+	}
+}
+```
+## compareTo()
+returns the coressponding int value by comparing the dictionary order value of the String array
+
+```java
+public void test(){ 
+ 
+    String str1 = "AA"; 
+ 
+    String str2 = "AA"; 
+ 
+    String str3 = "BB"; 
+ 
+    System.out.println(str1.compareTo(str2));  // 결과  0 
+ 
+    System.out.println(str2.compareTo(str3));  // 결과 -1 
+ 
+    System.out.println(str3.compareTo(str2));  // 결과  1 
+ 
+}
+```
+ 
+## compare()
+compare two paramater and return the result as  in type
+
+```java
+Comarator<T> c = new Comparator<T>(){
+@override
+	public int compar(T o1, To2){
+	if(o1>o2){
+	return 1;
+	}
+
+	else if(o1<o2){
+	return -1;
+	}
+
+	else{
+	return 0;
+	}
+}
+```
+
+```java
+Arrays.sort(arr, new Comparator<String>() {
+	public int compare(String s1, String s2) {
+		// 단어 길이가 같을 경우 
+		if (s1.length() == s2.length()) {
+			return s1.compareTo(s2);
+		} 
+		// 그 외의 경우 
+		else {
+			return s1.length() - s2.length();
+		}
+	}
+});
