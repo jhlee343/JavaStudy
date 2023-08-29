@@ -80,3 +80,22 @@ Arrays.sort(arr, (e1, e2) -> {
 		return e1[0] - e2[0];
 	}
 });
+
+java.util.Set;
+===================
+
+element couldn't be duplicated(repeated)
+set might have order
+set might be array
+
+
+# java.util.HashSet
+	```java
+	set<String>set = new HashSet<String>();
+	set.add("1");
+
+	for(Iterator i = set.iterator(); i.hasNext();){
+	system.out.println(i.next());
+	}
+
+# java.util.Iterator
