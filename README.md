@@ -1,11 +1,11 @@
 # JavaStudy
 
-## about SystemClass
+### about SystemClass
 https://github.com/jhlee343/JavaStudy/blob/main/about_Systemclass.md
 
-## about javaio
+### about javaio
 https://github.com/jhlee343/JavaStudy/blob/main/about_javaio.md
 
 
-##about java lang
+### about java lang
 https://github.com/jhlee343/JavaStudy/blob/main/about_lang.md
