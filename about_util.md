@@ -100,6 +100,7 @@ set might be array
 	system.out.println(i.next());
 	}
 
+
 # java.util.Iterator
 
 java.util.Comparator<T>
@@ -172,3 +173,41 @@ Arrays.sort(arr, new Comparator<String>() {
 		}
 	}
 });
+```
+
+# java.util.HashMap
+
+```java
+Map<String, Object> map = new HashMap<String, Object>();
+map.put( , );
+map.setKey();
+map.values();
+map.get();
+```
+
+HashMap is representative Collections to implement the map.
+
+Map is the DataStructure that contain key and values, so map can save the entry object.
+
+values could be overlap but key couldn't.
+
+HashMap have excellent performance in searching large amounts of values
+
+## The way to print map used by iterator
+```java
+HashMap<Integer,String> map = new HashMap<Integer,String>(){{//초기값 지정
+    put(1,"사과");
+    put(2,"바나나");
+    put(3,"포도");
+}};
+		
+//entrySet().iterator()
+Iterator<Entry<Integer, String>> entries = map.entrySet().iterator();
+while(entries.hasNext()){
+    Map.Entry<Integer, String> entry = entries.next();
+    System.out.println("[Key]:" + entry.getKey() + " [Value]:" +  entry.getValue());
+}
+//[Key]:1 [Value]:사과
+//[Key]:2 [Value]:바나나
+//[Key]:3 [Value]:포도
+```
